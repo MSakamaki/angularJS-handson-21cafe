@@ -13,11 +13,4 @@ angular.module('utill', [])
             if (! value) return 0 === min ;
             return value.length >= min && value.length <= max;
         }
-    })
-    .service('message',function(){
-        this.make=function(message, dicts){
-            dicts.forEach(function(dict){
-                message.replace(/%s/, dict);
-            });
-        }
     });

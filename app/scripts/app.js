@@ -2,7 +2,7 @@
 
 angular.module('angularJSAppApp', [
 	'ngCookies',
-	'ngRoute',
+	'ngRoute',  // <-Angular-routeを読み込み
 	'angularLocalStorage', 
 	'ngGrid',
 	'btns', 
@@ -15,5 +15,6 @@ angular.module('angularJSAppApp', [
 	.config(function ($routeProvider) {
 		$routeProvider
             .when('/main', { templateUrl: 'views/main.html', controller: 'MainCtrl' })
+            .when('/show', {templateUrl:'views/show.html', controller : 'ShowCtrl'})
             .otherwise({ redirectTo: '/main' });
 	});

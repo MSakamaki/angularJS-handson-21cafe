@@ -1,7 +1,13 @@
 'use strict';
 
 angular.module('todoTags', [])
-	.directive('myfooter', function(){
+    .directive('mymenu', function(){
+        return {
+            restrict:'E',
+            templateUrl : 'scripts/directive/template/mymenu.html'
+        }
+    })
+    .directive('myfooter', function(){
         return {
             restrict : 'E',
             templateUrl : 'scripts/directive/template/myfooter.html'
@@ -30,5 +36,11 @@ angular.module('todoTags', [])
             restrict : 'E',
             controller : 'itemsCtrl',
             templateUrl : 'scripts/directive/template/myitems.html'
+        }
+    })
+    .directive('mylist', function(){
+        return {
+            restrict : 'E',
+            template : '</br><div class="gridStyle" ng-grid="grids"></div>'
         }
     });
