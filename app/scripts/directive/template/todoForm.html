@@ -1,0 +1,28 @@
+<div>
+    <form name="myForm" novalidate ng-submit="insert()">
+        </br>
+        <input name="title" class="main-text title-text" type="text" ng-model="inTitle"
+                placeholder="Put the title"
+                isoverlap 
+                required 
+                ng-maxlength="10" 
+                ng-minlength="5"/>
+
+        <div>
+            <span class="validMsg" ng-hide="isTitleError()">残り入力可能な文字数:{{10-inTitle.length}}</span>
+            <span class="validErrMsg" ng-show="myForm.title.$error.required">{{msgTitleRequired}} </span>
+            <span class="validErrMsg" ng-show="myForm.title.$error.isoverlap">{{msgTitleOverlapError}}</span>
+            <span class="validErrMsg" ng-show="myForm.title.$error.maxlength">{{msgTitleLengthError}}</span>
+            <span class="validErrMsg" ng-show="myForm.title.$error.minlength">{{msgTitleLengthError}}</span>
+        </div>
+        <textarea name="text" class="main-textarea title-textarea" ng-model="inText"
+                placeholder="What needs to be done?"
+                ng-maxlength="140"></textarea>
+        </br>
+        <div>
+            <span class="validMsg" ng-hide="isTextError()">残り入力可能な文字数:{{140-inText.length}}</span>
+            <span class="validErrMsg" ng-show="myForm.text.$error.maxlength">{{msgTextLengthError}} </span>
+        </div>
+        <input id="insert" class="main-button" type="submit" value="insert" ng-hide="isFormError()">
+    </form>
+</div>

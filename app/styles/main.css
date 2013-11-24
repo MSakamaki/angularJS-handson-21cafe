@@ -1,0 +1,273 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_body\.sass}line{font-family:\000031}}
+body {
+  font-size: large;
+  font-color: gray;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  background-color: #cccccc;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_body\.sass}line{font-family:\000039}}
+.bnt-delete {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Arial;
+  border: 1px solid #d83526;
+  border-radius: 23px;
+  padding: 2px 6px;
+  text-decoration: none;
+  background-color: #fa665a;
+  color: white;
+  display: inline-block;
+  box-shadow: inset 1px 1px 0px 0px #fab3ad;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_body\.sass}line{font-family:\0000322}}
+.bnt-delete:focus, .bnt-delete:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #d34639), color-stop(100%, #fa665a));
+  background: -moz-linear-gradient(center top, #d34639 5%, #fa665a 100%);
+  background: -ms-linear-gradient(top, #d34639 5%, #fa665a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d34639', endColorstr='#fa665a');
+  background-color: #d34639;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_body\.sass}line{font-family:\0000328}}
+.bnt-delete:active {
+  position: relative;
+  top: 1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_body\.sass}line{font-family:\0000333}}
+footer {
+  text-align: center;
+  padding: 35px 0px 0px 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_body\.sass}line{font-family:\0000337}}
+#main {
+  font-size: x-large;
+  background-color: #ffffee;
+  height: 100%;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -webkit-box-shadow: 5px 5px 5px #999999;
+  -moz-box-shadow: 5px 5px 5px #999999;
+  box-shadow: 5px 5px 5px #999999;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+  width: 520px;
+  padding: 35px 5px 5px 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_input-main\.sass}line{font-family:\000031}}
+.main-file {
+  font-size: large;
+  margin: 0px 5px 0px 5px;
+  color: gray;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_input-main\.sass}line{font-family:\000037}}
+.main-select {
+  font-size: large;
+  margin: 0px 5px 0px 5px;
+  border: 1px solid #cccccc;
+  color: gray;
+  -webkit-transition: border linear, box-shadow linear;
+  -webkit-transition-delay: 0.2s, 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_input-main\.sass}line{font-family:\0000316}}
+.main-text,
+.main-password {
+  font-size: large;
+  margin: 0px 5px 0px 5px;
+  border: 1px solid #cccccc;
+  color: gray;
+  background-color: white;
+  padding: 4px 2px;
+  -webkit-transition: border linear, box-shadow linear;
+  -webkit-transition-delay: 0.2s, 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_input-main\.sass}line{font-family:\0000329}}
+.main-textarea {
+  font-size: large;
+  margin: 0px 5px 0px 5px;
+  border: 1px solid #cccccc;
+  color: gray;
+  background-color: white;
+  padding: 4px 2px;
+  -webkit-transition: border linear, box-shadow linear;
+  -webkit-transition-delay: 0.2s, 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_input-main\.sass}line{font-family:\0000341}}
+.main-button,
+.main-submit,
+.main-reset,
+.main-checkbox,
+.main-radio {
+  font-size: large;
+  margin: 10px 5px 10px 5px;
+  border: 2px solid #cccccc;
+  color: gray;
+  padding: 4px 20px;
+  background-color: #ffffee;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_common\.sass}line{font-family:\0000333}}
+.main-button:focus, .main-button:hover,
+.main-submit:focus,
+.main-submit:hover,
+.main-reset:focus,
+.main-reset:hover,
+.main-checkbox:focus,
+.main-checkbox:hover,
+.main-radio:focus,
+.main-radio:hover {
+  background-color: #eeeeee;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_common\.sass}line{font-family:\0000336}}
+.main-button:active,
+.main-submit:active,
+.main-reset:active,
+.main-checkbox:active,
+.main-radio:active {
+  background-color: #eeeeee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_menu\.sass}line{font-family:\000031}}
+.menu {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_menu\.sass}line{font-family:\0000314}}
+.menu-item {
+  text-decoration: none;
+  color: white;
+  margin: 0px 16px 0px 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_main\.sass}line{font-family:\000031}}
+.notes-lists {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_main\.sass}line{font-family:\000034}}
+.notes-inputs {
+  float: center;
+  width: 520px;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_main\.sass}line{font-family:\000039}}
+#notes-entry {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_main\.sass}line{font-family:\0000312}}
+.title-text {
+  width: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_main\.sass}line{font-family:\0000315}}
+.title-textarea {
+  width: 500px;
+  height: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_main\.sass}line{font-family:\0000319}}
+.detail {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_elements\.sass}line{font-family:\000031}}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_elements\.sass}line{font-family:\000036}}
+.span1 {
+  font-size: xx-large;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_elements\.sass}line{font-family:\0000310}}
+.span2 {
+  font-size: x-large;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_elements\.sass}line{font-family:\0000314}}
+.span3 {
+  font-size: large;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_elements\.sass}line{font-family:\0000318}}
+.span4 {
+  font-size: medium;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_elements\.sass}line{font-family:\0000322}}
+.span5 {
+  font-size: small;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_elements\.sass}line{font-family:\0000326}}
+.span6 {
+  font-size: x-small;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/mycomp\/html5biz\/albatrosary\/angularJS-app\/app\/styles\/lib\/_elements\.sass}line{font-family:\0000330}}
+.span7 {
+  font-size: xx-small;
+}
+
+.validErrMsg {
+  font-size : 18px;
+  color:red;
+}
+.validMsg {
+  font-size : 18px;
+}
