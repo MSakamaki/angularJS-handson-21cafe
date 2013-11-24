@@ -1,5 +1,13 @@
 #AngularJS Handson 21cafe
 
+## さいしょに
+ + 以下のコマンドでissues/1-0ブランチをcloneしてください。
+ + issues/1-0からissues/2-4まで、機能を徐々に追加していきます。
+
+``
+git clone -b issues/1-0 https://github.com/MSakamaki/angularJS-handson-21cafe.git
+``
+
 ##[issues/1-1](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-0...issues%2F1-1)
 #### 基本的な登録機能編
  + ボタンの実装
