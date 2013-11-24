@@ -1,6 +1,7 @@
 <div>
 	<ul class="notes-lists" >
-	<li class="notes-entry" ng-repeat="todo in items" ng-click="selector(todo)">
+	<span>filter:</span><input ng-model="titlefillter"></input>
+	<li class="notes-entry" ng-repeat="todo in items | filter:titlefillter" ng-click="selector(todo)">
 	{{todo.title}}
 	<span class="bnt-delete" ng-click="delete(todo)">x</span>
 	</li>
