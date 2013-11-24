@@ -1,7 +1,6 @@
 'use strict';
 angular.module('myitems', [])
 	.controller('itemsCtrl', function ($scope) {
-	   	$scope.items=[];
 		$scope.selector=function(todo){
 			$scope.inTitle =  todo.title;
 			$scope.inText  =  todo.text;
