@@ -31,6 +31,13 @@ angular.module('todoTags', [])
             templateUrl : 'scripts/directive/template/btns.html'
         }
     })
+    .directive('todoform', function(){
+        return {
+            restrict : 'E',
+            controller : 'todoForm',
+            templateUrl : 'scripts/directive/template/todoForm.html'
+        }
+    })
     .directive('myitems', function(){
         return {
             restrict : 'E',

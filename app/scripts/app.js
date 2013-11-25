@@ -6,6 +6,7 @@ angular.module('angularJSAppApp', [
 	'angularLocalStorage', 
 	'ngGrid',
 	'btns', 
+	'formApp', 
 	'todoTags', 
 	'utill', 
 	'myitems',
