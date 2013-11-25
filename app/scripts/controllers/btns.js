@@ -1,7 +1,6 @@
 'use strict';
 angular.module('btns', [])
 	.controller('btnCtrl', function ($window, $scope, uiCheck, MESSAGES) {
-	   $scope.items=[];
         $scope.update=function(){
             $scope.items.some(function(v){
                 if (v.title === $scope.inTitle){
@@ -15,8 +14,8 @@ angular.module('btns', [])
             }
             $scope.items.push({ title : $scope.inTitle, text : $scope.inText });
         };
-        $scope.deleteALL=function(todo){
-            $scope.items=[];
+        $scope.deleteALL=function(){
+            $scope.items.splice(0,$scope.items.length);
         };
 
         var isTitleError =function(){
