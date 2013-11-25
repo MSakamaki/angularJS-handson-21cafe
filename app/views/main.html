@@ -1,13 +1,14 @@
+
 <div id="main" class="main" ng-init="connect()"  ng-controller="btnCtrl">
 	<div class="notes-inputs">
 		<mymenu></mymenu>
         <btns></btns>
         </br>
         <input id="title" class="main-text title-text" type="text" ng-model="inTitle"
-               placeholder="Put the title"/>
+               ng-Enterfocus="text" placeholder="Put the title"/>
         </br>
         <textarea id="text" class="main-textarea title-textarea" ng-model="inText"
-                  placeholder="What needs to be done?"></textarea>
+                  placeholder="What needs to be done?" ></textarea>
         </br>
 	</div>
 	<myitems></myitems>

@@ -7,7 +7,9 @@ angular.module('angularJSAppApp', [
 	'ngGrid',
 	'btns', 
 	'todoTags', 
-	'myitems'
+	'utill', 
+	'myitems',
+	'myconst'
 	])
 	.config(function ($routeProvider) {
 		$routeProvider
