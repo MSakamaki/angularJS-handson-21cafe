@@ -8,6 +8,16 @@
 git clone -b issues/1-0 https://github.com/MSakamaki/angularJS-handson-21cafe.git
 ``
 
+ + その後、npm、bowerにてモジュール、JSライブラリをインストールします。
+
+``sh
+npm install
+``
+
+``sh
+bower install
+``
+
 ##[issues/1-1](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-0...issues%2F1-1)
 #### 基本的な登録機能編
  + ボタンの実装
