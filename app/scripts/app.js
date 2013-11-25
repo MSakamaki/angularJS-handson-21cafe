@@ -4,7 +4,10 @@ angular.module('angularJSAppApp', [
 	'ngCookies',
 	'ngRoute',
 	'angularLocalStorage', 
-	'ngGrid'
+	'ngGrid',
+	'btns', 
+	'todoTags', 
+	'myitems'
 	])
 	.config(function ($routeProvider) {
 		$routeProvider

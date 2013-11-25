@@ -1,0 +1,8 @@
+<div>
+	<ul class="notes-lists" >
+	<li class="notes-entry" ng-repeat="todo in items" ng-click="selector(todo)">
+	{{todo.title}}
+	<span class="bnt-delete" ng-click="delete(todo)">x</span>
+	</li>
+	</ul>
+</div>
