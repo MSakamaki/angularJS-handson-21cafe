@@ -13,6 +13,15 @@ angular.module('formApp', [])
 			$scope.items.push({ title : $scope.inTitle, text : $scope.inText });
 		};
 
+		var textChange= function(){
+			$scope.items.some(function(v){
+				if (v.title === $scope.inTitle){
+					v.text = $scope.inText;
+				}
+			});
+		};
+		$scope.$watch('inText',textChange, true);
+
 		$scope.isFormError = function(){
 			return $scope.isTitleError() || $scope.isTextError();
 		};
