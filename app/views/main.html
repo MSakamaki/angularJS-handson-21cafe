@@ -1,8 +1,8 @@
 
-<div id="main" class="main" ng-init="connect()"  ng-controller="btnCtrl">
-	<div class="notes-inputs">
-		<mymenu></mymenu>
-        <btns></btns>
+<div id="main" class="main" ng-init="connect()">
+  <div class="notes-inputs">
+    <mymenu></mymenu>
+        <btns ng-controller="btnCtrl"></btns>
         </br>
         <input id="title" class="main-text title-text" type="text" ng-model="inTitle"
                ng-Enterfocus="text" placeholder="Put the title"/>
@@ -10,7 +10,7 @@
         <textarea id="text" class="main-textarea title-textarea" ng-model="inText"
                   placeholder="What needs to be done?" ></textarea>
         </br>
-	</div>
-	<myitems></myitems>
+  </div>
+  <myitems></myitems>
 </div>
 <myfooter></myfooter>
