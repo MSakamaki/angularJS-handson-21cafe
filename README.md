@@ -2,66 +2,298 @@
 
 ## さいしょに
  + 以下のコマンドでissues/1-0ブランチをcloneしてください。
- + issues/1-0からissues/2-4まで、機能を徐々に追加していきます。
 
-``
+```
 git clone -b issues/1-0 https://github.com/MSakamaki/angularJS-handson-21cafe.git
-``
+```
 
  + その後、npm、bowerにてモジュール、JSライブラリをインストールします。
 
-``sh
+```sh
 npm install
-``
+```
 
-``sh
+```sh
 bower install
-``
+```
 
+ + これから issues/1-0から開始し、issues/2-4まで、機能を徐々に追加しながらAngularJSの様々な機能を体験していきます。
+
+---
+##[issues/1-1](https://github.com/MSakamaki/angularJS-handson-21cafe/tree/issues/1-0)のapp/配下初期構成
+```
+app/  
+├── 404.html  
+├── favicon.ico  
+├── index.html  
+├── robots.txt  
+├── scripts  
+│   ├── app.js  
+│   └── controllers  
+│       └── main.js  
+├── styles  
+│   └── main.css  
+└── views  
+    └── main.html  
+```
+
+---
 ##[issues/1-1](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-0...issues%2F1-1)
 #### 基本的な登録機能編
+以下のファイルを追加/編集します。  
+```sh
+app/
+├── 404.html
+├── favicon.ico
+├── index.html                 # <- 変更
+├── robots.txt
+├── scripts
+│   ├── app.js                 # <- 変更
+│   ├── controllers
+│   │   ├── btns.js            # <- 新規追加
+│   │   ├── main.js
+│   │   └── myitems.js         # <- 新規追加
+│   └── directive              # <- 新規追加
+│       ├── element.js         # <- 新規追加
+│       └── template           # <- 新規追加
+│           ├── btns.html      # <- 新規追加
+│           ├── myfooter.html  # <- 新規追加
+│           └── myitems.html   # <- 新規追加
+├── styles
+│   └── main.css
+└── views
+    └── main.html              # <- 変更
+```
+#####追加される機能
  + ボタンの実装
  + テキストボックスの実装
  + 一覧の実装
 
+---
 ##[issues/1-2](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-1...issues%2F1-2)
 #### 追加機能編
+以下のファイルを追加/編集します。  
+```sh
+app/
+├── 404.html
+├── favicon.ico
+├── index.html                 # <- 変更
+├── robots.txt
+├── scripts
+│   ├── app.js                 # <- 変更
+│   ├── controllers
+│   │   ├── btns.js            # <- 変更
+│   │   ├── main.js
+│   │   └── myitems.js         # <- 変更
+│   ├── directive
+│   │   ├── element.js         # <- 変更
+│   │   └── template
+│   │       ├── btns.html
+│   │       ├── myfooter.html
+│   │       └── myitems.html
+│   └── service                # <- 新規追加
+│       ├── constant.js        # <- 新規追加
+│       └── utill.js           # <- 新規追加
+├── styles
+│   └── main.css
+└── views
+    └── main.html              # <- 変更
+```
+#####追加される機能
  + ボタンのコントロール内にバリデーション実装
  + serviceで共通部品的なものを作ってみる。
  + 一覧にフィルタ機能を追加
  + テキストボックス（タイトル）にエンターでフォーカス移動を
 
+---
 ##[issues/1-3](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-2...issues%2F1-3)
 #### テストの実装
- + 登録機能だけテストを実装する
+以下のファイルを追加/編集します。  
+```sh
+app/
+test/
+├── runner.html
+└── spec
+    └── controllers
+        └── main.js             # <- 変更
+```
+#####追加される機能
+ + 登録機能だけテストを実装してみる
 
+---
 ##[issues/1-4](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-3...issues%2F1-4)
 #### localstrage機能を実装
+以下のファイルを追加/編集します。  
+```sh
+app/
+├── 404.html
+├── favicon.ico
+├── index.html                  # <- (使うモジュールの説明のみ)動作に変更はなし
+├── robots.txt
+├── scripts
+│   ├── app.js
+│   ├── controllers
+│   │   ├── btns.js             # <- 変更
+│   │   ├── main.js             # <- 変更
+│   │   └── myitems.js          # <- 変更
+│   ├── directive
+│   │   ├── element.js
+│   │   └── template
+│   │       ├── btns.html
+│   │       ├── myfooter.html
+│   │       └── myitems.html    # <- 変更
+│   └── service
+│       ├── constant.js
+│       └── utill.js
+├── styles
+│   └── main.css
+└── views
+    └── main.html
+```
+#####追加される機能
  + モジュール「[angularLocalStorage](https://github.com/agrublev/angularLocalStorage)」を使用
 
+---
 ##[issues/1-5](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-4...issues%2F1-5)
 #### 画面遷移
+以下のファイルを追加/編集します。  
+```sh
+app/
+├── 404.html
+├── favicon.ico
+├── index.html                  # <- 使うモジュールの説明と変更
+├── robots.txt
+├── scripts
+│   ├── app.js                  # <- 変更
+│   ├── controllers
+│   │   ├── btns.js
+│   │   ├── main.js
+│   │   ├── myitems.js
+│   │   └── show.js             # <- 新規追加
+│   ├── directive
+│   │   ├── element.js          # <- 変更
+│   │   └── template
+│   │       ├── btns.htm
+│   │       ├── myfooter.html
+│   │       ├── myitems.html
+│   │       └── mymenu.html     # <- 新規追加
+│   └── service
+│       ├── constant.js
+│       └── utill.js
+├── styles
+│   └── main.css
+└── views
+    ├── main.html               # <- 変更
+    └── show.html               # <- 新規追加
+```
+#####追加される機能
  + 遷移先のページを作成
  + 遷移用の部品を作成
  + 一覧はモジュール「[ng-grid](http://angular-ui.github.io/ng-grid/)」を使用
 
+---
 ##[issues/2-0](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-5...issues%2F2-0)
 #### menu2画面の作成
+以下のファイルを追加/編集します。  
+```sh
+app/
+├── 404.html
+├── favicon.ico
+├── index.html                   # <- 変更
+├── robots.txt
+├── scripts
+│   ├── app.js                   # <- 変更
+│   ├── controllers
+│   │   ├── btns.js
+│   │   ├── main.js
+│   │   ├── main2.js             # <- 新規追加
+│   │   ├── myitems.js
+│   │   └── show.js
+│   ├── directive
+│   │   ├── element.js
+│   │   └── template
+│   │       ├── btns.html
+│   │       ├── myfooter.html
+│   │       ├── myitems.html
+│   │       └── mymenu.html      # <- 変更
+│   └── service
+│       ├── constant.js
+│       └── utill.js
+├── styles
+│   └── main.css
+└── views
+    ├── main.html
+    ├── main2.html               # <- 新規追加
+    └── show.html
+```
+#####追加される機能
  + 画面遷移機能と新規画面の作成
 
+---
 ##[issues/2-1](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F2-0...issues%2F2-1)
 ####submit & formを追加
+以下のファイルを追加/編集します。  
+```sh
+app/
+├── 404.html
+├── favicon.ico
+├── index.html                   # <- 変更
+├── robots.txt
+├── scripts
+│   ├── app.js                   # <- 変更
+│   ├── controllers
+│   │   ├── btns.js
+│   │   ├── main.js
+│   │   ├── main2.js
+│   │   ├── myitems.js
+│   │   ├── show.js
+│   │   └── todoForm.js          # <- 新規追加
+│   ├── directive
+│   │   ├── element.js           # <- 変更
+│   │   ├── template
+│   │   │   ├── btns.html
+│   │   │   ├── myfooter.html
+│   │   │   ├── myitems.html
+│   │   │   ├── mymenu.html
+│   │   │   └── todoForm.html    # <- 新規追加
+│   │   └── validate.js          # <- 新規追加
+│   └── service
+│       ├── constant.js
+│       └── utill.js
+├── styles
+│   └── main.css
+└── views
+    ├── main.html
+    ├── main2.html               # <- 変更
+    └── show.html
+```
+#####追加される機能
  + 入力とボタンを追加
 
+---
 ##[issues/2-2](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F2-1...issues%2F2-2)
 ####チェック処理１
+以下のファイルを追加/編集します。  
+```sh
+```
+#####追加される機能
  + validationの実装
 
+---
 ##[issues/2-3](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F2-2...issues%2F2-3)
 ####チェック処理２
+以下のファイルを追加/編集します。  
+```sh
+```
+#####追加される機能
  + custom validationの実装
 
+---
 ##[issues/2-4](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F2-3...issues%2F2-4)
 #### 更新機能実装
+以下のファイルを追加/編集します。  
+```sh
+```
+#####追加される機能
  + $waitchでのアップデート機能を実装
 
