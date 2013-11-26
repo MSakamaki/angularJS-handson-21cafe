@@ -20,7 +20,7 @@ bower install
  + これから issues/1-0から開始し、issues/2-4まで、機能を徐々に追加しながらAngularJSの様々な機能を体験していきます。
 
 ---
-##[issues/1-1](https://github.com/MSakamaki/angularJS-handson-21cafe/tree/issues/1-0)のapp/配下初期構成
+##[issues/1-0](https://github.com/MSakamaki/angularJS-handson-21cafe/tree/issues/1-0)のapp/配下初期構成
 ```
 app/  
 ├── 404.html  
