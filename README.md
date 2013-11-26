@@ -250,13 +250,12 @@ app/
 │   │   └── todoForm.js          # <- 新規追加
 │   ├── directive
 │   │   ├── element.js           # <- 変更
-│   │   ├── template
-│   │   │   ├── btns.html
-│   │   │   ├── myfooter.html
-│   │   │   ├── myitems.html
-│   │   │   ├── mymenu.html
-│   │   │   └── todoForm.html    # <- 新規追加
-│   │   └── validate.js          # <- 新規追加
+│   │   └── template
+│   │       ├── btns.html
+│   │       ├── myfooter.html
+│   │       ├── myitems.html
+│   │       ├── mymenu.html
+│   │       └── todoForm.html    # <- 新規追加
 │   └── service
 │       ├── constant.js
 │       └── utill.js
@@ -264,7 +263,7 @@ app/
 │   └── main.css
 └── views
     ├── main.html
-    ├── main2.html               # <- 変更
+    ├── main2.html                # <- 変更
     └── show.html
 ```
 #####追加される機能
@@ -275,6 +274,37 @@ app/
 ####チェック処理１
 以下のファイルを追加/編集します。  
 ```sh
+app/
+├── 404.html
+├── favicon.ico
+├── index.html
+├── robots.txt
+├── scripts
+│   ├── app.js
+│   ├── controllers
+│   │   ├── btns.js
+│   │   ├── main.js
+│   │   ├── main2.js
+│   │   ├── myitems.js
+│   │   ├── show.js
+│   │   └── todoForm.js           # <- 変更
+│   ├── directive
+│   │   ├── element.js
+│   │   └── template
+│   │       ├── btns.html
+│   │       ├── myfooter.html
+│   │       ├── myitems.html
+│   │       ├── mymenu.html
+│   │       └── todoForm.html     # <- 変更
+│   └── service
+│       ├── constant.js
+│       └── utill.js
+├── styles
+│   └── main.css
+└── views
+    ├── main.html
+    ├── main2.html
+    └── show.html
 ```
 #####追加される機能
  + validationの実装
@@ -284,6 +314,38 @@ app/
 ####チェック処理２
 以下のファイルを追加/編集します。  
 ```sh
+app/
+├── 404.html
+├── favicon.ico
+├── index.html                 # <- 変更
+├── robots.txt
+├── scripts
+│   ├── app.js                 # <- 変更
+│   ├── controllers
+│   │   ├── btns.js
+│   │   ├── main.js
+│   │   ├── main2.js
+│   │   ├── myitems.js
+│   │   ├── show.js
+│   │   └── todoForm.js        # <- 変更
+│   ├── directive
+│   │   ├── element.js
+│   │   ├── template
+│   │   │   ├── btns.html
+│   │   │   ├── myfooter.html
+│   │   │   ├── myitems.html
+│   │   │   ├── mymenu.html
+│   │   │   └── todoForm.html  # <- 変更
+│   │   └── validate.js        # <- 新規追加
+│   └── service
+│       ├── constant.js
+│       └── utill.js
+├── styles
+│   └── main.css
+└── views
+    ├── main.html
+    ├── main2.html
+    └── show.html
 ```
 #####追加される機能
  + custom validationの実装
@@ -293,6 +355,38 @@ app/
 #### 更新機能実装
 以下のファイルを追加/編集します。  
 ```sh
+app/
+├── 404.html
+├── favicon.ico
+├── index.html
+├── robots.txt
+├── scripts
+│   ├── app.js
+│   ├── controllers
+│   │   ├── btns.js
+│   │   ├── main.js
+│   │   ├── main2.js
+│   │   ├── myitems.js
+│   │   ├── show.js
+│   │   └── todoForm.js         # <- 変更
+│   ├── directive
+│   │   ├── element.js
+│   │   ├── template
+│   │   │   ├── btns.html
+│   │   │   ├── myfooter.html
+│   │   │   ├── myitems.html
+│   │   │   ├── mymenu.html
+│   │   │   └── todoForm.html
+│   │   └── validate.js
+│   └── service
+│       ├── constant.js
+│       └── utill.js
+├── styles
+│   └── main.css
+└── views
+    ├── main.html
+    ├── main2.html
+    └── show.html
 ```
 #####追加される機能
  + $waitchでのアップデート機能を実装
