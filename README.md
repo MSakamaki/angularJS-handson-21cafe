@@ -18,7 +18,9 @@ bower install
 ```
 
  + これから issues/1-0から開始し、issues/2-4まで、機能を徐々に追加しながらAngularJSの様々な機能を体験していきます。
-
+ + ```grunt server```コマンドでライブリロードしながら開発していきましょう。
+ + ブラウザにchoromeを使用される方は**[AngularJS Batarang](https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk)**があると便利です。
+ 
 ---
 ##[issues/1-0](https://github.com/MSakamaki/angularJS-handson-21cafe/tree/issues/1-0)のapp/配下初期構成
 ```
@@ -119,6 +121,10 @@ test/
 ```
 #####追加される機能
  + 登録機能だけテストを実装してみる
+
+#####補足
+ + ```grunt test```コマンドでテストだけ実行できます。
+ + 余裕があれば登録処理をわざとおかしい動きにして、単体テスト失敗時にはどういう表示になるかも見てみましょう。
 
 ---
 ##[issues/1-4](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-3...issues%2F1-4)
