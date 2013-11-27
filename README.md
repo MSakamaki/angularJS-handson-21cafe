@@ -2,6 +2,8 @@
 
 ## さいしょに
  + 以下のコマンドでissues/1-0ブランチをcloneしてください。
+ +  よく使うコマンド「clone/branch/stash」等に付いては[安易マニュアル](https://github.com/MSakamaki/angularJS-handson-21cafe/wiki/Git-%E5%AE%89%E6%98%93-Manual)を用意しました。
+ + その他注意事項は[注意事項のページ](https://github.com/MSakamaki/angularJS-handson-21cafe/wiki/angularJS-handson%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85)のページにまとめてあります。
 
 ```
 git clone -b issues/1-0 https://github.com/MSakamaki/angularJS-handson-21cafe.git
