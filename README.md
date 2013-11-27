@@ -1,9 +1,11 @@
 #AngularJS Handson 21cafe
 
 ## さいしょに
- + 以下のコマンドでissues/1-0ブランチをcloneしてください。
+ + 開発には**git**、**node**、**yeoman**、**grunt**、**bower**が必要になります。  登録と構築が完了してない方は[佐川さんの作成されたマニュアル](https://github.com/albatrosary/backbone-handson-21cafe/blob/master/backbone%20%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3%20in%2021Cafe.pdf)を参考に必要な機能の準備を完了させてください。
  +  よく使うコマンド「clone/branch/stash」等に付いては[安易マニュアル](https://github.com/MSakamaki/angularJS-handson-21cafe/wiki/Git-%E5%AE%89%E6%98%93-Manual)を用意しました。
  + その他注意事項は[注意事項のページ](https://github.com/MSakamaki/angularJS-handson-21cafe/wiki/angularJS-handson%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85)のページにまとめてあります。
+
+ + まずは以下のコマンドでissues/1-0ブランチをcloneしてください。  
 
 ```
 git clone -b issues/1-0 https://github.com/MSakamaki/angularJS-handson-21cafe.git
