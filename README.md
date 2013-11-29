@@ -135,11 +135,11 @@ test/
 #### localstrage機能を実装
 
  + [issues/1-4(古い差分です、以下の「track byによる正しい問題回避方法のソース」を使ってください。)](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-3...issues%2F1-4)
-以下のファイルを追加/編集します。
  + 上記の$watchを使っての問題回避は暫定的なものです。
  + 正しい実装内容は[track by による正しい問題回避方法のソース](https://github.com/MSakamaki/angularJS-handson-21cafe/compare/issues%2F1-3...issues%2F1-4-1)を参考にしてください。
  + 詳細は[AngularJS1.2.0環境でAngularLocalStrageとng-repeatを共存させるとエラーが発生する件](https://github.com/MSakamaki/angularJS-handson-21cafe/wiki/angularJS-handson%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85#angularjs120%E7%92%B0%E5%A2%83%E3%81%A7angularlocalstrage%E3%81%A8ng-repeat%E3%82%92%E5%85%B1%E5%AD%98%E3%81%95%E3%81%9B%E3%82%8B%E3%81%A8%E3%82%A8%E3%83%A9%E3%83%BC%E3%81%8C%E7%99%BA%E7%94%9F%E3%81%99%E3%82%8B%E4%BB%B6)を参考にしてください。
 
+以下のファイルを追加/編集します。  
 ```sh
 app/
 ├── 404.html
